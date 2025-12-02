@@ -1,3 +1,4 @@
+
 # store-admin
 
 This is a Vue.js app that simulates a store admin portal where users can manually process orders, and manage products. It is meant to be used in conjunction with the product-service and makeline-service.
