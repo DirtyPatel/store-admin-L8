@@ -38,8 +38,8 @@ jobs:
 
       - name: Push Docker Image
         env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_IMAGE_NAME: ${{ vars.DOCKER_IMAGE_NAME }}
+          DOCKER_USERNAME: dirtypatel
+          DOCKER_IMAGE_NAME: store-admin-l8
         run: |
           docker push $DOCKER_USERNAME/$DOCKER_IMAGE_NAME:test
 
